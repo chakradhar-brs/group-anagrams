@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anagram Grouper</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Anagram Grouper</h1>
+      <p>
+        For each group, the function creates a new list item element called
+        listItem, sets its text content to the group joined by commas, and
+        appends it to the result element using the appendChild method
+
+      </p>
+      <label for="strs">Enter strings (comma-separated)</label>
+      <input type="text" id="strs" placeholder="Enter strings" />
+      <button onclick="groupAnagrams()">Group Anagrams</button>
+      <ul id="result"></ul>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
